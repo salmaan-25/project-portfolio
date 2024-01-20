@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>feedbackpage</title>
+</head>
+<style>
+    h2{
+        font-style: italic;
+            font-size: 50px;
+            padding: 0px 300px;
+            font-style: italic;
+    }
+    p{
+        
+        font-size: 28px;
+            font-style: italic;
+            padding: 0px 200px;
+    }
+    .cont{
+        background-color: rgb(205, 255, 255);
+            height: 100vh;
+    }
+    .btn{
+        background-color:rgb(155, 154, 154);
+            color: black;
+            border-radius: 15px;
+            transition: all 1s ease-out;
+            font-weight: bold;
+            padding: 10px 30px;
+            margin-left: 200px;
+            cursor: pointer;
+    }
+    .btn:hover{
+        color: rgb(255, 246, 246);
+    }
+    .two{
+        font-style: italic;
+        padding: 30px 20px;
+        margin: 10px;
+    }
+</style>
+<body>
+    <div class="cont">
+    <h2>FEEDBACK PAGE</h2>
+    <P>Please give the ratings and the feedback for the webpage as well me and portfolio <br> so that it would br better when you visit the very next time </P>
+    <form action="backend.php">
+       <div class="one">
+        1.Is this site is userfriendly: <input type="radio">Yes <input type="radio">No</div>
+        <br>
+        <br>
+       2.Write up comments: <input type="text" placeholder="don't exceed 50words" class="two"></br>
+    </form>
+    <br>
+    <button class="btn">Submit</button></br>
+</div>
+</body>
+</html>
